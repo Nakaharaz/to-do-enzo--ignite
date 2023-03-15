@@ -1,0 +1,46 @@
+.formNewTask {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.formNewTask button {
+  color: var(--gray-100);
+  font-weight: 700;
+
+  padding: 0 1.5rem;
+  height: 3.25rem;
+  border: 0;
+  border-radius: 8px;
+  background: var(--blue-500);
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem;
+}
+
+.formNewTask button:hover {
+  filter: brightness(0.9);
+}
+
+.formNewTask input {
+  background: var(--gray-500);
+  border: 1px solid var(--gray-700);
+  border-radius: 8px;
+  padding: 0 15rem 0 1rem;
+
+  height: 3.25rem;
+
+  transition: border 0.2s;
+}
+
+.formNewTask input:focus {
+  border: 1px solid var(--purple-100);
+  outline: none;
+}
+
+.formNewTask input::placeholder {
+  color: var(--gray-300);
+}
